@@ -1,0 +1,10 @@
+README.md
+setup.py
+pelican/plugins/tag_cloud/__init__.py
+pelican/plugins/tag_cloud/tag_cloud.py
+pelican/plugins/tag_cloud/test_tag_cloud.py
+pelican_tag_cloud.egg-info/PKG-INFO
+pelican_tag_cloud.egg-info/SOURCES.txt
+pelican_tag_cloud.egg-info/dependency_links.txt
+pelican_tag_cloud.egg-info/requires.txt
+pelican_tag_cloud.egg-info/top_level.txt

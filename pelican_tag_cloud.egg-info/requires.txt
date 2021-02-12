@@ -1,0 +1,4 @@
+pelican<5.0,>=4.5
+
+[markdown]
+markdown<4.0.0,>=3.2.2
