@@ -1,13 +1,15 @@
-import unittest
 import os
-import six
-import tag_cloud
 from shutil import rmtree
 from tempfile import mkdtemp
+import unittest
+
+import six
 
 from pelican.generators import ArticlesGenerator
 from pelican.tests.support import get_settings
 from pelican.urlwrappers import Tag
+
+import tag_cloud
 
 CUR_DIR = os.path.dirname(__file__)
 CONTENT_DIR = os.path.join(CUR_DIR, "test_data")

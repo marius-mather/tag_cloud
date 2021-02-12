@@ -7,10 +7,9 @@ This plugin generates a tag cloud from available tags
 from __future__ import unicode_literals
 
 from collections import defaultdict
-from operator import itemgetter
-
 import logging
 import math
+from operator import itemgetter
 import random
 
 from pelican import signals
