@@ -38,8 +38,9 @@ blog/
 
 In `pelicanconf.py` you have to activate the plugin::
 
-    PLUGIN_PATHS = ["plugins"]
-    PLUGINS = ["tag_cloud"]
+```python
+PLUGINS = ["tag_cloud"]
+```
 
 
 In your theme files, you should change `base.html` to apply formats 
