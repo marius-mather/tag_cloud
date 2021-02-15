@@ -48,18 +48,13 @@ In your theme files, you should change `base.html` to apply formats
 
 ### Settings
 
-================================================    =====================================================
-Setting name (followed by default value)            What does it do?
-================================================    =====================================================
-`TAG_CLOUD_STEPS = 4`                               Count of different font sizes in the tag
-                                                      cloud.
-`TAG_CLOUD_MAX_ITEMS = 100`                         Maximum number of tags in the cloud.
-`TAG_CLOUD_SORTING = 'random'`                      The tag cloud ordering scheme.  Valid values:
-                                                      random, alphabetically, alphabetically-rev, size and
-                                                      size-rev
-`TAG_CLOUD_BADGE = True`                            Optional setting: turn on **badges**, displaying 
-                                                      the number of articles using each tag.
-================================================    =====================================================
+|  Setting name (followed by default value)         |            What does it do?                           |
+| ------------------------------------------------  | ----------------------------------------------------- |
+| `TAG_CLOUD_STEPS = 4`                             |  Count of different font sizes in the tag cloud.      |
+| `TAG_CLOUD_MAX_ITEMS = 100`                       |  Maximum number of tags in the cloud.                 |
+| `TAG_CLOUD_SORTING = 'random'`                    |  The tag cloud ordering scheme.  Valid values: random, alphabetically, alphabetically-rev, size and size-rev |
+| `TAG_CLOUD_BADGE = True`                          |  Optional setting: turn on **badges**, displaying the number of articles using each tag. |
+
 
 The default theme does not include a tag cloud, but it is pretty easy to add one::
 
